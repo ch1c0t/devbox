@@ -1,7 +1,7 @@
 $!/bin/sh
 
 sudo -i
-apt-get update -y
+apt-get update
 apt-get upgrade -y
 
 apt-get install htop tmux zsh vim ruby git curl -y
