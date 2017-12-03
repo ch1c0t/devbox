@@ -4,7 +4,7 @@ sudo -i
 apt-get update
 apt-get upgrade -y
 
-apt-get install htop tmux zsh vim-nox ruby git curl -y
+apt-get install ruby git curl -y
 
 echo "gem: --no-document" > /root/.gemrc
 gem i bundler
