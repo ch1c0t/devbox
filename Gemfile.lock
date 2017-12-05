@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/mitchellh/vagrant.git
+  remote: git://github.com/hashicorp/vagrant.git
   revision: e98b72d2c50c6def92558614ddd2371a4458daab
   specs:
     vagrant (2.0.2.dev)
