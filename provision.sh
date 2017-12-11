@@ -12,5 +12,6 @@ gem i bundler docker-api
 git clone --recursive https://github.com/ch1c0t/.vim
 ln -s .vim/main.vim .vimrc
 
-# This command changes from root to vagrant user.
+# This command changes from root to vagrant user. That's why 'exit' is needed.
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+exit
