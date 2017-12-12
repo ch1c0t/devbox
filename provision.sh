@@ -15,3 +15,10 @@ ln -s .vim/main.vim .vimrc
 # This command changes from root to vagrant user. That's why 'exit' is needed.
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 exit
+
+
+cp -r /root/.vim /home/vagrant
+cp -r /root/.oh-my-zsh /home/vagrant
+cp /root/.zshrc /home/vagrant
+
+chown -R vagrant:vagrant /home/vagrant
