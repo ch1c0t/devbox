@@ -22,3 +22,5 @@ cp -r /root/.oh-my-zsh /home/vagrant
 cp /root/.zshrc /home/vagrant
 
 chown -R vagrant:vagrant /home/vagrant
+
+ruby /vagrant/provision.rb
